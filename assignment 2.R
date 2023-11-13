@@ -1,3 +1,4 @@
+#Assignment 2
 ##Q1(a)
 x<-c(rep("Gold",20),rep("Silver",30),rep("Bronze",50))
 sample(x,10)
@@ -67,6 +68,7 @@ median(dat$Sepal.Length)
 quantile(dat$Sepal.Length,0.25)
 quantile(dat$Sepal.Length,0.75)
 IQR(dat$Sepal.Length)
+
 ##(g)
 sd(dat$Sepal.Length)
 var(dat$Sepal.Length)
@@ -79,6 +81,8 @@ lapply(dat[2:4],sd)
 lapply(dat[2:4],var)
 ##(i)
 summary(iris)
+print(dat[2:4])
+print(dat)
 
 
 ##Q5

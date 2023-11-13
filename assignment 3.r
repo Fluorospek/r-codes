@@ -1,3 +1,4 @@
+#Assignment 3
 ##Q1
 p1<-dbinom(7,12,1/6)
 p2<-dbinom(8,12,1/6)
@@ -46,3 +47,5 @@ for(i in 0:31){
 }
 probabs<-dbinom(x=c(0:31),size=31,prob=0.447)
 plot(0:31,probabs,type='l')
+
+print(dpois(20,16))
